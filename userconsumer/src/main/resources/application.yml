@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: userconsumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.199.165.188:8848
+  devtools:
+    restart:
+      enabled: true
+server:
+  port: 8090
+
+feign:
+  sentinel:
+    enabled: true
